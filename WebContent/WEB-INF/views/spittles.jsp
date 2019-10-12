@@ -8,6 +8,7 @@
 <title>Spittles</title>
 </head>
 <body>	
+	<h2>Recent spittles</h2>
 	<c:forEach items='${spittleList}' var="spittle" >
 	  <li id='spittle_<c:out value="spittle.id"/>'>
 	    <div class="spittleMessage">
